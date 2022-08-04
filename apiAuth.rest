@@ -1,0 +1,23 @@
+# POST http://localhost:8000/register
+# Content-Type: application/json
+
+# {
+#     "firstname":"jerome",
+#     "lastname":"eva",
+#     "email":"email@yahoo.com",
+#     "password":"P@ssw0rd"
+# }
+
+# POST http://localhost:8000/login
+# Content-Type: application/json
+
+# {
+#     "email":"email@yahoo.com",
+#     "password":"P@ssw0rd"
+# }
+
+# GET http://localhost:8000/dashboard
+# Authorization: Bear eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWI4ODA0ZWQ1YTZjMDRjYTFmYWRiMCIsImZpcnN0bmFtZSI6Implcm9tZSIsImxhc3RuYW1lIjoiZXZhIiwiZW1haWwiOiJlbWFpbEB5YWhvby5jb20iLCJpYXQiOjE2NTk2MDUyNDcsImV4cCI6MTY1OTY5MTY0N30.kTLtWEivMiG-U9yrK-izjfBBCo8EnpBwNZn6PjB2AYM
+
+# GET http://localhost:8000/dashboard
+# Authorization: Bear eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWJhNzY4ZTQ4Y2ZmZDE5ODM4ZmRmYSIsImZpcnN0bmFtZSI6InF3ZSIsImxhc3RuYW1lIjoicXdlIiwiZW1haWwiOiJxd2VAeWFob28uY29tIiwiaWF0IjoxNjU5NjE1OTg2LCJleHAiOjE2NTk3MDIzODZ9.2kXDd0sFrKcgBlE-WzTQz1wxMZeRCSepAS5cd4mkv64
